@@ -17,7 +17,7 @@
 | 이름 | 값 | 설명 |
 |---|---|---|
 | Authorization | {secretKey} | 콘솔에서 발급받은 보안 키 |
-| Content-Type | application/json;charset=UTF-8 | |
+| Content-Type | application/json | |
 
 [요청 본문]
 ```
