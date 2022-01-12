@@ -45,12 +45,12 @@
 #### 응답
 
 [성공 응답]
-* HTTP Status Code : 200
-* Content-Type : audio/wav 또는 audio/mpeg
-* Body : byte[]
+* HTTP Status Code: 200
+* Content-Type: audio/wav 또는 audio/mpeg
+* Body: byte[]
 
 [실패 응답]
-* Content-Type : application/json
+* Content-Type: application/json
 ```
 {
     "header": {
