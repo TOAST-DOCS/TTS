@@ -1,28 +1,28 @@
-## AI Service > Text To Speech > 콘솔 사용 가이드
+## AI Service > Text To Speech > Console User Guide
 
-콘솔을 통해 텍스트를 입력하고 음성 변환 결과를 얻을 수 있습니다.
+You can input text and get the result of converted speech through the console.
 
-## 음성 합성
+## Speech Synthesis
 
-### 음성 합성을 위한 텍스트 입력
+### Enter Text for Speech Synthesis
 
-음성 합성에 사용될 텍스트를 입력합니다.
+Enter the text that will be used for speech synthesis.
 
-### 음성 합성 세부 설정
+### Detailed Settings for Speech Synthesis
 
-합성될 음성의 세부 설정이 가능합니다.
+You can set detailed settings for the voice to be synthesized.
 
-* 파일 형식: 음성 합성의 결과로 mp3, wav 두가지 파일 형식을 지원합니다.
-* 음성: 음성의 종류(남성, 여성)를 설정할 수 있습니다.
-* 높낮이: 음성의 어조를 구현할 수 있도록 높낮이 값을 설정할 수 있습니다.
-* 속도: 음성의 속도(1배속, 2배속 등)값을 설정할 수 있습니다.
-* 음량: 음량값을 설정할 수 있습니다.
+* File Format: Supports two file formats, mp3 and wav, as a result of speech synthesis.
+* Voice: You can set the voice type (male, female).
+* Pitch: You can set the pitch to implement the tone of the voice.
+* Speed: You can set the speed (1x, 2x, etc.) of the voice.
+* Volume: You can set the volume.
 
-### 음성 합성
+### Synthesize Speech
 
-텍스트를 입력한 후 **음성 합성** 버튼을 클릭하면 입력한 내용의 음성 파일이 생성됩니다.
+After entering text, click the **Synthesize Speech** button to create an audio file of the entered text.
 
 ![TTS](http://static.toastoven.net/prod_speech/tts_console_en.png)
 
-* **듣기** 버튼을 눌러 합성된 음성을 확인할 수 있습니다.
-* **다운로드** 버튼을 눌러 합성된 파일(.mp3, .wav)을 다운로드할 수 있습니다.
+* You can check the synthesized voice by pressing the **Listen** button.
+* You can download the synthesized file (.mp3, .wav) by clicking the **Download** button.

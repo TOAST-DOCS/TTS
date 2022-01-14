@@ -1,37 +1,37 @@
-## AI Service > Text To Speech > 개요
+## AI Service > Text To Speech > Overview
 
-Text to Speech는 NHN Cloud의 문자 인식 및 음성 합성 기술을 통해, 입력된 텍스트를 인식하고, 인식된 문자를 음성으로 합성하는 기능을 제공합니다. 
-자동 응답 서비스, 책·인터넷 문서 읽어주기 서비스 등 다양한 분야에서 활용 할 수 있습니다.
+Text to Speech uses NHN Cloud's character recognition and speech synthesis technology to recognize input text and synthesize speech from the recognized characters.
+It can be used in various areas such as automatic response services and book/Internet document reading services.
 
-## 주요 기능
+## Main Features
 
-* **음성 합성**
-	* 음성 합성 기능을 통해 입력된 텍스트의 음성 변환 파일을 제공합니다.
+* **Speech synthesis**
+    * Provides a voice file converted from the input text using the speech synthesis function.
 
-* **세분화된 음성 파일 설정**
-	* 음성 합성의 음성 조건 설정을 제공합니다.
-		* 음성: 음성의 종류(남성, 여성)를 설정할 수 있습니다.
-		* 높낮이: 음성의 어조를 구현할 수 있도록 높낮이 값을 설정할 수 있습니다.
-		* 속도: 음성의 속도(1배속, 2배속 등)값을 설정할 수 있습니다.
-		* 음량: 음량값을 설정할 수 있습니다.
+* **Detailed settings for the voice file**
+    * You can set the conditions of voice for speech synthesis.
+        * Voice: You can set the type (male, female) of the voice.
+        * Pitch: You can set the pitch to implement the tone of the voice.
+        * Speed: You can set the speed (1x, 2x, etc.) of the voice.
+        * Volume: You can set the volume.
 
-* **음성 합성 다운로드**
-	* 입력한 텍스트에서 변환된 음성 파일(.wav, .mp3)을 다운로드할 수 있습니다.
+* **Speech synthesis results download**
+    * You can download audio files (wav, mp3) of the voice converted from input text.
 
-## 입력 텍스트 가이드
+## Input Text Guide
 
-보다 정확한 문자 음성 합성을 위해 아래의 가이드를 참고하시기 바랍니다.
+For more accurate text-to-speech synthesis, please refer to the guide below.
 
-* 텍스트는 공백 포함 최대 1,000자까지 입력 가능합니다.
-* 음성 품질을 위해 1문장당 200자 이내로 입력할 것을 추천합니다.
-* 음성 합성은 한국어, 숫자, 문장 부호만 지원되며, 그 외 텍스트는 합성 결과에서 제외됩니다.
-    
-## 서비스 대상
-* 음성 합성 자동화가 필요한 경우
-* 자동 응답 서비스를 구축하는 경우
-* 책, 인터넷, 문서 등 음성 관련 콘텐츠 생성이 필요한 경우
+* Up to 1,000 characters (including spaces) of text can be entered.
+* For voice quality, it is recommended to enter less than 200 characters per sentence.
+* Only Korean characters, numbers, and punctuation are supported for speech synthesis, and other text are excluded from the synthesis result.
 
-## 개인정보 처리에 대한 안내
-* Text to Speech 서비스를 이용하는 과정에서 고객은 이용자의 개인정보를 수집/이용할 수 있으며, 이 경우 고객은 개인정보보호법 등 관련 법령을 준수할 의무가 있습니다. 또한, 본 서비스를 이용 함에 따라 고객은 NHN에 개인정보 처리에 관한 업무를 위탁 및 제공하게 됩니다. 위탁자의 지위에 있는 고객은 수탁사인 NHN과 별도 서면에 의한 개인정보 처리 업무 위탁 계약을 체결할 수 있으며, 고객이 운영하는 개인정보처리방침에 아래 내용을 참고하여 고지할 수 있고 이용자로 부터 개인정보의 제3자 제공에 관한 동의를 얻어야 합니다.
-    - 수탁 업체: 엔에이치엔㈜
-    - 위탁 업무의 내용: Text to Speech 서비스 제공
+## Service Targets
+* When you need speech synthesis automation
+* If you are building an automatic response service
+* When you need to create voice-related content such as books, Internet content, or documents
+
+## Information on Processing of Personal Information
+* While using the Text to Speech service, the customer may collect/use the user's personal information. In this case, the customer is obliged to comply with relevant laws such as the Personal Information Protection Act. In addition, by using this service, the customer consigns and provides the work regarding personal information processing to NHN. A customer in the status of a consignor may conclude a separate written personal information processing consignment contract with NHN, the consignee, and may notify the following in the privacy policy operated by the customer, and must obtain consent for provision of personal information to a third party from users.
+    - Consignee: NHN 
+    - Consignment Description: Providing the Text to Speech service
