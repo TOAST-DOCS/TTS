@@ -37,7 +37,7 @@
 |---|---|---|---|---|---|
 | inputText | String | 필수 | | 최대 1000자 | 입력 텍스트 |
 | fileType | String | 선택 | MP3 | MP3/WAV | 파일 형식 |
-| speaker | String | 선택 | FEMALE | MALE/FEMALE | 성별 |
+| speaker | String | 선택 | FEMALE | MALE/FEMALE | 음성 |
 | pitch | Float | 선택 | 0 | -12~12| 높낮이 |
 | speed | Float | 선택 | 1 | 0.25~4 | 속도 |
 | volume | Float | 선택 | 0 | -6~6 | 음량 |
