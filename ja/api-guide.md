@@ -1,28 +1,28 @@
-## AI Service > Text To Speech > API 가이드
+## AI Service > Text To Speech > APIガイド
 
-### 음성 합성 API
+### 音声合成API
 
-#### 요청
+#### リクエスト
 
-- {appKey}와 {secretKey}는 콘솔 상단 **URL & Appkey** 메뉴에서 확인이 가능합니다.
+- {appKey}と{secretKey}はコンソール上部の**URL & Appkey** メニューで確認できます。
 
 [URI]
 
-| 메서드 | URI |
+| メソッド | URI |
 |---|---|
 | POST | https://speech.api.nhncloudservice.com/v1.0/appkeys/{appKey}/tts |
 
-[요청 헤더]
+[リクエストヘッダ]
 
-| 이름 | 값 | 설명 |
+| 名前 | 値 | 説明 |
 |---|---|---|
-| Authorization | {secretKey} | 콘솔에서 발급받은 보안 키 |
+| Authorization | {secretKey} | コンソールで発行されたセキュリティキー |
 | Content-Type | application/json | |
 
-[요청 본문]
+[リクエスト本文]
 ```
 {
-    "inputText": "입력 텍스트",
+    "inputText": "入力テキスト",
     "fileType": "WAV",
     "speaker": "MALE",
     "pitch": 0,
@@ -31,25 +31,25 @@
 }
 ```
 
-[필드]
+[フィールド]
 
-| 이름 | 타입 | 필수 여부 | 기본값 | 유효 범위 | 설명 |
+| 名前 | タイプ | 必須かどうか | デフォルト値 | 有効範囲 | 説明 |
 |---|---|---|---|---|---|
-| inputText | String | 필수 | | 최대 1000자 | 입력 텍스트 |
-| fileType | String | 선택 | MP3 | MP3/WAV | 파일 형식 |
-| speaker | String | 선택 | FEMALE | MALE/FEMALE | 음성 |
-| pitch | Float | 선택 | 0 | -12~12| 높낮이 |
-| speed | Float | 선택 | 1 | 0.5~4 | 속도 |
-| volume | Float | 선택 | 0 | -6~6 | 음량 |
+| inputText | String | 必須 | | 最大1000文字 | 入力テキスト |
+| fileType | String | 任意 | MP3 | MP3/WAV | ファイル形式 |
+| speaker | String | 任意 | FEMALE | MALE/FEMALE | 音声|
+| pitch | Float | 任意 | 0 | -12~12| 高低 |
+| speed | Float | 任意 | 1 | 0.5~4 | 速度 |
+| volume | Float | 任意 | 0 | -6~6 | 音量 |
 
-#### 응답
+#### レスポンス
 
-[성공 응답]
+[成功レスポンス]
 * HTTP Status Code: 200
-* Content-Type: audio/wav 또는 audio/mpeg
+* Content-Type: audio/wavまたはaudio/mpeg
 * Body: byte[]
 
-[실패 응답]
+[失敗レスポンス]
 * Content-Type: application/json
 ```
 {
