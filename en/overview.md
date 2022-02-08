@@ -16,7 +16,7 @@ It can be used in various areas such as automatic response services and book/Int
         * Volume: You can set the volume.
 
 * **Speech synthesis results download**
-    * You can download audio files (wav, mp3) of the voice converted from input text.
+    * You can download audio files (.wav, .mp3) of the voice converted from input text.
 
 ## Input Text Guide
 
