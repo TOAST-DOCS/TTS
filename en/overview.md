@@ -32,6 +32,6 @@ For more accurate text-to-speech synthesis, please refer to the guide below.
 * When you need to create voice-related content such as books, Internet content, or documents
 
 ## Information on Processing of Personal Information
-* While using the Text to Speech service, the customer may collect/use the user's personal information. In this case, the customer is obliged to comply with relevant laws such as the Personal Information Protection Act. In addition, by using this service, the customer consigns and provides the work regarding personal information processing to NHN. A customer in the status of a consignor may conclude a separate written personal information processing consignment contract with NHN, the consignee, and may notify the following in the privacy policy operated by the customer, and must obtain consent for provision of personal information to a third party from users.
-    - Consignee: NHN 
+* While using the Text to Speech service, the customer may collect/use the user's personal information. In this case, the customer is obliged to comply with relevant laws such as the Personal Information Protection Act. In addition, by using this service, the customer consigns and provides the work regarding personal information processing to NHN Cloud. A customer in the status of a consignor may conclude a separate written personal information processing consignment contract with NHN Cloud, the consignee, and may notify the following in the privacy policy operated by the customer, and must obtain consent for provision of personal information to a third party from users.
+    - Consignee: NHN Cloud Corp.
     - Consignment Description: Providing the Text to Speech service
