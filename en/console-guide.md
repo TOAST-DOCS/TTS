@@ -13,7 +13,8 @@ Enter the text that will be used for speech synthesis.
 You can set detailed settings for the voice to be synthesized.
 
 * File Format: Supports two file formats, mp3 and wav, as a result of speech synthesis.
-* Voice: You can set the voice type (male, female).
+* 음성 종류: 음성의 종류(남성, 여성)를 설정할 수 있습니다.
+* 음성 감정: 음성의 감정(기본, 어두운, 밝은)을 설정할 수 있습니다.
 * Pitch: You can set the pitch to implement the tone of the voice.
 * Speed: You can set the speed (1x, 2x, etc.) of the voice.
 * Volume: You can set the volume.

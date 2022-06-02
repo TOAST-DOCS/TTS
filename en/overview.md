@@ -10,7 +10,8 @@ It can be used in various areas such as automatic response services and book/Int
 
 * **Detailed settings for the voice file**
     * You can set the conditions of voice for speech synthesis.
-        * Voice: You can set the type (male, female) of the voice.
+		* 음성 종류: 음성의 종류(남성, 여성)를 설정할 수 있습니다.
+		* 음성 감정: 음성의 감정(기본, 어두운, 밝은)을 설정할 수 있습니다.
         * Pitch: You can set the pitch to implement the tone of the voice.
         * Speed: You can set the speed (1x, 2x, etc.) of the voice.
         * Volume: You can set the volume.
