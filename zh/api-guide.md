@@ -25,6 +25,7 @@
     "inputText": "input text",
     "fileType": "WAV",
     "speaker": "MALE",
+    "emotion": "NEUTRAL",
     "pitch": 0,
     "speed": 1,
     "volume": 0
