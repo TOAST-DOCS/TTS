@@ -25,6 +25,7 @@
     "inputText": "入力テキスト",
     "fileType": "WAV",
     "speaker": "MALE",
+    "emotion": "NEUTRAL",
     "pitch": 0,
     "speed": 1,
     "volume": 0
@@ -37,7 +38,8 @@
 |---|---|---|---|---|---|
 | inputText | String | 必須 | | 最大1000文字 | 入力テキスト |
 | fileType | String | 任意 | MP3 | MP3/WAV | ファイル形式 |
-| speaker | String | 任意 | FEMALE | MALE/FEMALE | 音声|
+| speaker | String | 任意 | FEMALE | MALE/FEMALE | 음성 종류 |
+| emotion | String | 任意 | NEUTRAL | NEUTRAL/DARK/BRIGHT | 음성 감정 |
 | pitch | Float | 任意 | 0 | -12~12| 高低 |
 | speed | Float | 任意 | 1 | 0.5~4 | 速度 |
 | volume | Float | 任意 | 0 | -6~6 | 音量 |
