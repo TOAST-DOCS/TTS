@@ -38,8 +38,8 @@
 |---|---|---|---|---|---|
 | inputText | String | Required | | Up to 1,000 characters | Input text |
 | fileType | String | Optional | MP3 | MP3/WAV | File format |
-| speaker | String | Optional | FEMALE | MALE/FEMALE | 음성 종류 |
-| emotion | String | Optional | NEUTRAL | NEUTRAL/DARK/BRIGHT | 음성 감정 |
+| speaker | String | Optional | FEMALE | MALE/FEMALE | Voice type |
+| emotion | String | Optional | NEUTRAL | NEUTRAL/DARK/BRIGHT | Voice emotion |
 | pitch | Float | Optional | 0 | -12~12| Pitch |
 | speed | Float | Optional | 1 | 0.5~4 | Speed |
 | volume | Float | Optional | 0 | -6~6 | Volume |
