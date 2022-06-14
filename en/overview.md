@@ -6,18 +6,18 @@ It can be used in various areas such as automatic response services and book/Int
 ## Main Features
 
 * **Speech synthesis**
-    * Provides a voice file converted from the input text using the speech synthesis function.
+	* Provides a voice file converted from the input text using the speech synthesis function.
 
 * **Detailed settings for the voice file**
-    * You can set the conditions of voice for speech synthesis.
-		* 음성 종류: 음성의 종류(남성, 여성)를 설정할 수 있습니다.
-		* 음성 감정: 음성의 감정(기본, 어두운, 밝은)을 설정할 수 있습니다.
-        * Pitch: You can set the pitch to implement the tone of the voice.
-        * Speed: You can set the speed (1x, 2x, etc.) of the voice.
-        * Volume: You can set the volume.
+	* You can set the conditions of voice for speech synthesis.
+		* Voice Type: You can set the voice type (male, female).
+		* Voice Emotion: You can set the voice emotion (neutral, dark, light).
+		* Pitch: You can set the pitch to implement the tone of the voice.
+		* Speed: You can set the speed (1x, 2x, etc.) of the voice.
+		* Volume: You can set the volume.
 
 * **Speech synthesis results download**
-    * You can download audio files (.wav, .mp3) of the voice converted from input text.
+	* You can download audio files (.wav, .mp3) of the voice converted from input text.
 
 ## Input Text Guide
 
@@ -26,7 +26,7 @@ For more accurate text-to-speech synthesis, please refer to the guide below.
 * Up to 1,000 characters (including spaces) of text can be entered.
 * For voice quality, it is recommended to enter less than 200 characters per sentence.
 * Only Korean characters, numbers, and punctuation are supported for speech synthesis, and other text are excluded from the synthesis result.
-
+    
 ## Service Targets
 * When you need speech synthesis automation
 * If you are building an automatic response service
