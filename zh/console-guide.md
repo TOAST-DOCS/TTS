@@ -13,7 +13,8 @@ Enter the text that will be used for speech synthesis.
 You can set detailed settings for the voice to be synthesized.
 
 * File Format: Supports two file formats, mp3 and wav, as a result of speech synthesis.
-* Voice: You can set the voice type (male, female).
+* Voice Type: You can set the voice type (male, female).
+* Voice Emotion: You can set the voice emotion (neutral, dark, light).
 * Pitch: You can set the pitch to implement the tone of the voice.
 * Speed: You can set the speed (1x, 2x, etc.) of the voice.
 * Volume: You can set the volume.
