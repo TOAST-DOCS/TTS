@@ -24,6 +24,7 @@
 {
     "inputText": "input text",
     "fileType": "WAV",
+    "language: "EN",
     "speaker": "MALE",
     "emotion": "NEUTRAL",
     "pitch": 0,
@@ -37,9 +38,10 @@
 | Name | Type | Required | Default value | Valid range | Description |
 |---|---|---|---|---|---|
 | inputText | String | Required | | Up to 1,000 characters | Input text |
-| fileType | String | Optional | MP3 | MP3/WAV | File format |
-| speaker | String | Optional | FEMALE | MALE/FEMALE | Voice type |
-| emotion | String | Optional | NEUTRAL | NEUTRAL/DARK/BRIGHT | Voice emotion |
+| fileType | String | Optional | MP3 | MP3/WAV | File format(.mp3, .wav) |
+| language | String | Optional | KO | KO/EN/JA | Language(Korean, English, Japanese) |
+| speaker | String | Optional | FEMALE | MALE/FEMALE | Voice type(Male, Female) |
+| emotion | String | Optional | NEUTRAL | NEUTRAL/DARK/BRIGHT | Voice emotion(Neutral, Dark, Bright) |
 | pitch | Float | Optional | 0 | -12~12| Pitch |
 | speed | Float | Optional | 1 | 0.5~4 | Speed |
 | volume | Float | Optional | 0 | -6~6 | Volume |
