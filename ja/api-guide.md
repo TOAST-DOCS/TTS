@@ -38,10 +38,10 @@
 | 名前 | タイプ | 必須かどうか | デフォルト値 | 有効範囲 | 説明 |
 |---|---|---|---|---|---|
 | inputText | String | 必須 | | 最大1000文字 | 入力テキスト |
-| fileType | String | 任意 | MP3 | MP3/WAV | ファイル形式(.mp3, .wav) |
-| language | String | 任意 | KO | KO/EN/JA | 言語(韓国語, 英語, 日本語) |
-| speaker | String | 任意 | FEMALE | MALE/FEMALE | 音声の種類(男性, 女性) |
-| emotion | String | 任意 | NEUTRAL | NEUTRAL/DARK/BRIGHT | 音声の感情(기본, 어두운, 밝은) |
+| fileType | String | 任意 | MP3 | MP3/WAV | ファイル形式(.mp3、.wav) |
+| language | String | 任意 | KO | KO/EN/JA | 言語(韓国語、英語、日本語) |
+| speaker | String | 任意 | FEMALE | MALE/FEMALE | 音声の種類(男性、女性) |
+| emotion | String | 任意 | NEUTRAL | NEUTRAL/DARK/BRIGHT | 音声の感情(基本、暗い、明るい) |
 | pitch | Float | 任意 | 0 | -12~12| 高低 |
 | speed | Float | 任意 | 1 | 0.5~4 | 速度 |
 | volume | Float | 任意 | 0 | -6~6 | 音量 |
