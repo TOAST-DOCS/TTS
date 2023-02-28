@@ -24,6 +24,7 @@
 {
     "inputText": "입력 텍스트",
     "fileType": "WAV",
+    "language: "KO",
     "speaker": "MALE",
     "emotion": "NEUTRAL",
     "pitch": 0,
@@ -37,9 +38,10 @@
 | 이름 | 타입 | 필수 여부 | 기본값 | 유효 범위 | 설명 |
 |---|---|---|---|---|---|
 | inputText | String | 필수 | | 최대 1000자 | 입력 텍스트 |
-| fileType | String | 선택 | MP3 | MP3/WAV | 파일 형식 |
-| speaker | String | 선택 | FEMALE | MALE/FEMALE | 음성 종류 |
-| emotion | String | 선택 | NEUTRAL | NEUTRAL/DARK/BRIGHT | 음성 감정 |
+| fileType | String | 선택 | MP3 | MP3/WAV | 파일 형식(.mp3, .wav) |
+| language | String | 선택 | KO | KO/EN/JA | 언어(한국어, 영어, 일본어) |
+| speaker | String | 선택 | FEMALE | MALE/FEMALE | 음성 종류(남성, 여성) |
+| emotion | String | 선택 | NEUTRAL | NEUTRAL/DARK/BRIGHT | 음성 감정(기본, 어두운, 밝은) |
 | pitch | Float | 선택 | 0 | -12~12| 높낮이 |
 | speed | Float | 선택 | 1 | 0.5~4 | 속도 |
 | volume | Float | 선택 | 0 | -6~6 | 음량 |
