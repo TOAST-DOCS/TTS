@@ -12,6 +12,7 @@ Enter the text that will be used for speech synthesis.
 
 You can set detailed settings for the voice to be synthesized.
 
+* 언어: 음성 합성할 언어(한국어, 영어, 일본어)를 설정할 수 있습니다.
 * File Format: Supports two file formats, mp3 and wav, as a result of speech synthesis.
 * Voice Type: You can set the voice type (male, female).
 * Voice Emotion: You can set the voice emotion (neutral, dark, light).
