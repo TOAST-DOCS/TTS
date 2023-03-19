@@ -26,5 +26,5 @@
 
 ![TTS](http://static.toastoven.net/prod_speech/tts_console_ko.png)
 
-* **듣기** 클릭해 합성된 음성을 확인할 수 있습니다.
+* **듣기**를 클릭해 합성된 음성을 확인할 수 있습니다.
 * **다운로드**를 클릭해 합성된 음성 파일(.mp3, .wav)을 다운로드할 수 있습니다.
