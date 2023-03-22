@@ -12,7 +12,7 @@ Enter the text that will be used for speech synthesis.
 
 You can set detailed settings for the voice to be synthesized.
 
-* 언어: 음성 합성할 언어(한국어, 영어, 일본어)를 설정할 수 있습니다.
+* Language: You can set the language (Korean, English, Japanese) for speech synthesis.
 * File Format: Supports two file formats, mp3 and wav, as a result of speech synthesis.
 * Voice Type: You can set the voice type (male, female).
 * Voice Emotion: You can set the voice emotion (neutral, dark, light).
@@ -22,9 +22,9 @@ You can set detailed settings for the voice to be synthesized.
 
 ### Synthesize Speech
 
-After entering text, click the **Synthesize Speech** button to create an audio file of the entered text.
+After typing text, click **Synthesize Speech** to create an audio file of the entered text.
 
 ![TTS](http://static.toastoven.net/prod_speech/tts_console_en.png)
 
-* You can check the synthesized voice by pressing the **Listen** button.
-* You can download the synthesized file (.mp3, .wav) by clicking the **Download** button.
+* You can check the synthesized voice by clicking **Listen**.
+* You can download the synthesized file (.mp3, .wav) by clicking **Download**.
