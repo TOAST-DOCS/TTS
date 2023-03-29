@@ -2,9 +2,10 @@
 
 ### April 11, 2023
 
-* 중국어 여자 성우 추가
-* 음성 품질 향상
-* 음성 합성 속도 향상
+* Improved speech synthesis speed
+* Added supported languages
+  * Chinese(Female)
+* Improved voice quality
 
 ### February 28, 2023
 
