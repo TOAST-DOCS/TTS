@@ -1,5 +1,11 @@
 ## AI Service > Text To Speech > Release Notes
 
+### April 11, 2023
+
+* 중국어 여자 성우 추가
+* 음성 품질 향상
+* 음성 합성 속도 향상
+
 ### February 28, 2023
 
 * Improved speech synthesis speed
