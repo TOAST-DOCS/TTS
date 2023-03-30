@@ -39,7 +39,7 @@
 |---|---|---|---|---|---|
 | inputText | String | Required | | Up to 1,000 characters | Input text |
 | fileType | String | Optional | MP3 | MP3/WAV | File format(.mp3, .wav) |
-| language | String | Optional | KO | KO/EN/JA | Language(Korean, English, Japanese) |
+| language | String | Optional | KO | KO/EN/JA/ZH | Language(Korean, English, Japanese, Chinese) |
 | speaker | String | Optional | FEMALE | MALE/FEMALE | Voice type(Male, Female) |
 | emotion | String | Optional | NEUTRAL | NEUTRAL/DARK/BRIGHT | Voice emotion(Neutral, Dark, Bright) |
 | pitch | Float | Optional | 0 | -12~12| Pitch |

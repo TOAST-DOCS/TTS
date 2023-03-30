@@ -1,6 +1,6 @@
 ## AI Service > Text To Speech > Overview
 
-Text to Speech uses NHN Cloud's character recognition and speech synthesis technology to recognize input text and synthesize speech from the recognized characters.
+Text to Speech(TTS) uses NHN Cloud's character recognition and speech synthesis technology to recognize input text and synthesize speech from the recognized characters.
 It can be used in various areas such as automatic response services and book/Internet document reading services.
 
 ## Main Features
