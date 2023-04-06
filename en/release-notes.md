@@ -2,7 +2,6 @@
 
 ### April 11, 2023
 
-* Improved speech synthesis speed
 * Added supported languages
   * Chinese(Female)
 * Improved voice quality
