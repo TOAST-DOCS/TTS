@@ -3,7 +3,7 @@
 ### April 11, 2023
 
 * Added supported languages
-  * Chinese(Female)
+    * Chinese(Female)
 * Improved voice quality
 
 ### February 28, 2023
