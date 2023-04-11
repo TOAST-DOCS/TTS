@@ -1,5 +1,11 @@
 ## AI Service > Text To Speech > Release Notes
 
+### April 11, 2023
+
+* Added supported languages
+    * Chinese(Female)
+* Improved voice quality
+
 ### February 28, 2023
 
 * Improved speech synthesis speed
