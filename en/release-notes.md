@@ -3,23 +3,23 @@
 ### September 26, 2023
 
 * Added supported languages
-    * English(Female), Japanese(Male), Chinese(Male) 추가
+    * English (Female), Japanese (Male), Chinese (Male)
 * Improved voice quality
-    * 한국어를 선택한 뒤 영어로 음성을 합성할 경우의 음성 품질 향상
-* 버그 수정
-    * 중국어를 선택한 뒤 다른 언어로 음성을 합성할 경우 실패하는 오류 수정
-
+    * Improved voice quality when selecting Korean to synthesize the voice in English
+* Bug Fixes
+    * Fixed an issue where, when selecting Chinese, voice synthesis in another language would fail
+    
 ### April 11, 2023
 
 * Added supported languages
-    * Chinese(Female)
+    * Chinese (Female)
 * Improved voice quality
 
 ### February 28, 2023
 
 * Improved speech synthesis speed
 * Added supported languages
-    * English(Male), Japanese(Female)
+    * English (Male), Japanese (Female)
 * Improved the console UI
     * Removed guide message at the top
     * Added tooltip
