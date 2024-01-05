@@ -1,4 +1,4 @@
-## AI Service > Text To Speech > 오류 코드
+## AI Service > Text to Speech > 오류 코드
 
 | resultCode | resultKey | resultMessage |
 |---|---|----|

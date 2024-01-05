@@ -1,4 +1,4 @@
-## AI Service > Text To Speech > API Guide
+## AI Service > Text to Speech > API Guide
 
 ### Speech Synthesis API
 

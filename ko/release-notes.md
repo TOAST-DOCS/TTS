@@ -1,4 +1,4 @@
-## AI Service > Text To Speech > 릴리스 노트
+## AI Service > Text to Speech > 릴리스 노트
 
 ### 2023. 09. 26.
 
@@ -32,4 +32,4 @@
 
 ### 2022. 01. 25.
 
-* Text To Speech 서비스 출시
+* Text to Speech 서비스 출시
