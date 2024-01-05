@@ -1,4 +1,4 @@
-## AI Service > Text To Speech > 概要
+## AI Service > Text to Speech > 概要
 
 Text to Speech(TTS)は、NHN Cloudの文字認識および音声合成技術を利用して、入力されたテキストを認識し、認識した文字を音声に合成する機能を提供します。 
 自動レスポンスサービス、書籍、インターネット文書の読み上げサービスなど、さまざまな分野で活用できます。

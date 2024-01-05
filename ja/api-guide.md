@@ -1,4 +1,4 @@
-## AI Service > Text To Speech > APIガイド
+## AI Service > Text to Speech > APIガイド
 
 ### 音声合成API
 

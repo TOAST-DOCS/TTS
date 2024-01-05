@@ -1,4 +1,4 @@
-## AI Service > Text To Speech > Console User Guide
+## AI Service > Text to Speech > Console User Guide
 
 You can input text and get the result of converted speech through the console.
 
