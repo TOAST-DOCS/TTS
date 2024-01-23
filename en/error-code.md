@@ -1,4 +1,4 @@
-## AI Service > Text To Speech > Error Code
+## AI Service > Text to Speech > Error Code
 
 | resultCode | resultKey | resultMessage |
 |---|---|----|

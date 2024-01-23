@@ -1,4 +1,4 @@
-## AI Service > Text To Speech > リリースノート
+## AI Service > Text to Speech > リリースノート
 
 ### 2023. 09. 26.
 

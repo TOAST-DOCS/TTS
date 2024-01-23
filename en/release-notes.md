@@ -1,4 +1,4 @@
-## AI Service > Text To Speech > Release Notes
+## AI Service > Text to Speech > Release Notes
 
 ### September 26, 2023
 

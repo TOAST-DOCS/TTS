@@ -1,4 +1,4 @@
-## AI Service > Text To Speech > コンソール使用ガイド
+## AI Service > Text to Speech > コンソール使用ガイド
 
 コンソールを通じてテキストを入力し、音声変換結果を取得できます。
 
