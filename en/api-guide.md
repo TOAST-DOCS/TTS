@@ -24,7 +24,7 @@
 {
     "inputText": "input text",
     "fileType": "WAV",
-    "language: "EN",
+    "language": "EN",
     "speaker": "MALE",
     "emotion": "NEUTRAL",
     "pitch": 0,
