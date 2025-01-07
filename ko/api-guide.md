@@ -24,7 +24,7 @@
 {
     "inputText": "입력 텍스트",
     "fileType": "WAV",
-    "language: "KO",
+    "language": "KO",
     "speaker": "MALE",
     "emotion": "NEUTRAL",
     "pitch": 0,
