@@ -1,7 +1,12 @@
-## AI Service > Text to Speech > API 가이드
+<!-- pre-align:aligned sig=6bc53aa1fb63 -->
 
-### 음성 합성 API
+<a id="ai-service-text-to-speech-api-guide"></a>
+## AI Service > Text to Speech > API 가이드 { #ai-service-text-to-speech-api-guide }
 
+<a id="speech-synthesis-api"></a>
+### 음성 합성 API { #speech-synthesis-api }
+
+<a id="speech-synthesis-api-request"></a>
 #### 요청
 
 Text to Speech(TTS) API는 인증/인가를 위해 User Access Key 토큰을 사용합니다. User Access Key 토큰은 User Access Key를 기반으로 발급되는 Bearer 타입의 일시적 액세스 토큰입니다. User Access Key 토큰 발급 및 사용에 대한 자세한 내용은 [User Access Key 토큰](/nhncloud/ko/public-api/user-access-key-token)을 참고하세요.
@@ -40,6 +45,7 @@ Text to Speech(TTS) API는 인증/인가를 위해 User Access Key 토큰을 사
 | speed        | Float   | 선택    | 1        | 0.5~2                      | 속도                                                                    |
 | samplingRate | Long    | 선택    | 22050    | 8000~44100                 | 음성 파일의 샘플링 레이트(16000Hz, 22050Hz 등). alaw, ulaw 타입의 경우 8000으로 고정해야 합니다. |
 
+<a id="speech-synthesis-api-response"></a>
 #### 응답
 
 [성공 응답]

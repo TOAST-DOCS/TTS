@@ -1,7 +1,12 @@
-## AI Service > Text to Speech > API Guide
+<!-- pre-align:aligned sig=6bc53aa1fb63 -->
 
-### Speech Synthesis API
+<a id="ai-service-text-to-speech-api-guide"></a>
+## AI Service > Text to Speech > API Guide { #ai-service-text-to-speech-api-guide }
 
+<a id="speech-synthesis-api"></a>
+### Speech Synthesis API { #speech-synthesis-api }
+
+<a id="speech-synthesis-api-request"></a>
 #### Request
 
 TTS API uses User Access Key tokens for authentication and authorization. The User Access Key token is a temporary, Bearer-type access token issued from a User Access Key. For more information on issuing and using User Access Key tokens, see the [User Access Key Token](/nhncloud/en/public-api/user-access-key-token).
@@ -40,6 +45,7 @@ TTS API uses User Access Key tokens for authentication and authorization. The Us
 | speed        | Float  | Optional | 1        | 0.5-2                      | Speed                                                                                                               |
 | samplingRate | Long   | Optional | 2,2050    | 8,000-44,100                 | Sampling rate of the audio file (e.g., 16,000 Hz, 22,050 Hz). For alaw and ulaw types, this must be fixed at 8,000. |
 
+<a id="speech-synthesis-api-response"></a>
 #### Response
 
 [Success Response]

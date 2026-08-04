@@ -1,11 +1,15 @@
-## AI Service > Text to Speech > 概要
+<!-- pre-align:aligned sig=b3ae0027e551 -->
+
+<a id="ai-service-text-to-speech-overview"></a>
+## AI Service > Text to Speech > 概要 { #ai-service-text-to-speech-overview }
 
 Text to Speech(TTS)は、NHN Cloudの文字認識および音声合成技術を利用して、入力されたテキストを認識し、認識した文字を音声に合成する機能を提供します。 
 自動レスポンスサービス、書籍、インターネット文書の読み上げサービスなど、さまざまな分野で活用できます。
 
 ※ 本サービスの音声合成モデルの学習には、独自データとともにAI Hub(https://aihub.or.kr)のデータセットの一部を活用しました。
 
-## 主な機能
+<a id="main-features"></a>
+## 主な機能 { #main-features }
 
 * **音声合成**
 	* 音声合成機能を利用して、入力されたテキストの音声変換ファイルを提供します。
@@ -19,7 +23,8 @@ Text to Speech(TTS)は、NHN Cloudの文字認識および音声合成技術を�
 * **音声合成ダウンロード**
 	* 入力したテキストから変換された音声ファイル(.wav, .mp3)をダウンロードできます。
 
-## 入力テキストガイド
+<a id="input-text-guide"></a>
+## 入力テキストガイド { #input-text-guide }
 
 正確な文字音声合成を行うために、以下のガイドを参照してください。
 
@@ -27,12 +32,14 @@ Text to Speech(TTS)は、NHN Cloudの文字認識および音声合成技術を�
 * 音声品質のため、1文あたり50文字以内で入力することを推奨します。
 * 音声合成はサポート言語、数字、文章符号のみサポートし、それ以外のテキストは合成結果から 除外されます。
     
-## サービス対象
+<a id="service-targets"></a>
+## サービス対象 { #service-targets }
 * 音声合成の自動化が必要な場合
 * 自動レスポンスサービスを構築する場合
 * 書籍、インターネット、文書など音声関連コンテンツの作成が必要な場合
 
-## 個人情報処理についての案内
+<a id="information-on-processing-of-personal-information"></a>
+## 個人情報処理についての案内 { #information-on-processing-of-personal-information }
 * Text to Speechサービスを利用する過程でお客様は利用者の個人情報を収集/利用することができます。この場合、お客様は個人情報保護法など関連法令を遵守する義務があります。また本 サービスを利用することによりお客様はNHN Cloudに個人情報処理に関する業務を委託および提供することになります。委託者の立場にあるお客様は、受託会社であるNHN Cloudと別途書面による個人情報処理業務委託契約を締結することができ、お客様が運営する個人情報処理方針に以下の内容を参考にして告知することができ、利用者から個人情報の第三者提供に関する同意を得る必要があります。
     - 受託業者：NHN Cloud(株)
     - 委託業務の内容：Text to Speechサービス提供

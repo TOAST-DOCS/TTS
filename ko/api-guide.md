@@ -1,7 +1,12 @@
-## AI Service > Text to Speech > API 가이드
+<!-- pre-align:aligned sig=6bc53aa1fb63 -->
 
-### 음성 합성 API
+<a id="ai-service-text-to-speech-api-guide"></a>
+## AI Service > Text to Speech > API 가이드 { #ai-service-text-to-speech-api-guide }
 
+<a id="speech-synthesis-api"></a>
+### 음성 합성 API { #speech-synthesis-api }
+
+<a id="speech-synthesis-api-request"></a>
 #### 요청
 
 Text to Speech(TTS) API를 사용하려면 Appkey 또는 프로젝트 통합 Appkey가 필요합니다.<br/>
@@ -43,6 +48,7 @@ Appkey 확인 및 사용에 대한 자세한 내용은 [Appkey](/nhncloud/ko/pub
 | speed        | Float   | 선택    | 1        | 0.5~2                      | 속도                                                                    |
 | samplingRate | Long    | 선택    | 22050    | 8000~44100                 | 음성 파일의 샘플링 레이트(16000Hz, 22050Hz 등). alaw, ulaw 타입의 경우에는 8000으로 고정되어야 합니다. |
 
+<a id="speech-synthesis-api-response"></a>
 #### 응답
 
 [성공 응답]
