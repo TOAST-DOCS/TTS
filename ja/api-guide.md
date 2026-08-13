@@ -1,7 +1,12 @@
-## AI Service > Text to Speech > APIガイド
+<!-- pre-align:aligned sig=6bc53aa1fb63 -->
 
-### 音声合成API
+<a id="ai-service-text-to-speech-api-guide"></a>
+## AI Service > Text to Speech > APIガイド { #ai-service-text-to-speech-api-guide }
 
+<a id="speech-synthesis-api"></a>
+### 音声合成API { #speech-synthesis-api }
+
+<a id="speech-synthesis-api-request"></a>
 #### リクエスト
 
 TTS APIを使用するにはAppkeyまたはプロジェクト統合Appkeyが必要です。<br/>
@@ -13,7 +18,7 @@ Appkeyの確認及び使用に関する詳細は、[Appkey](/nhncloud/ja/public-
 
 | メソッド  | URI                                                              |
 |-------|------------------------------------------------------------------|
-| POST  | https://speech.api.nhncloudservice.com/v1.0/appkeys/{appKey}/tts |
+| POST  | https://api-speech.nhncloudservice.com/v1.0/appkeys/{appKey}/tts |
 
 [リクエストヘッダ]
 
@@ -43,6 +48,7 @@ Appkeyの確認及び使用に関する詳細は、[Appkey](/nhncloud/ja/public-
 | speed        | Float  | 任意     | 1        | 0.5~2                    | 速度                                                                        |
 | samplingRate | Long   | 任意     | 22050    | 8000～44100               | 音声ファイルのサンプリングレート(16000Hz、22050Hz等)。alaw、ulawタイプの場合は8000に固定する必要があります。 |
 
+<a id="speech-synthesis-api-response"></a>
 #### レスポンス
 
 [成功レスポンス]

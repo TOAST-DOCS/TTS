@@ -1,14 +1,20 @@
-## AI Service > Text to Speech > コンソール使用ガイド
+<!-- pre-align:aligned sig=ed5326503567 -->
+
+<a id="ai-service-text-to-speech-console-user-guide"></a>
+## AI Service > Text to Speech > コンソール使用ガイド { #ai-service-text-to-speech-console-user-guide }
 
 コンソールを通じてテキストを入力し、音声変換結果を取得できます。
 
-## 音声合成
+<a id="speech-synthesis"></a>
+## 音声合成 { #speech-synthesis }
 
-### 音声合成のためのテキスト入力
+<a id="enter-text-for-speech-synthesis"></a>
+### 音声合成のためのテキスト入力 { #enter-text-for-speech-synthesis }
 
 音声合成に使用するテキストを入力します。
 
-### 音声合成の詳細設定
+<a id="detailed-settings-for-speech-synthesis"></a>
+### 音声合成の詳細設定 { #detailed-settings-for-speech-synthesis }
 
 合成する音声の詳細設定を行うことができます。
 
@@ -17,7 +23,8 @@
 * 速度：音声の速度(1倍速、2倍速など)値を設定できます。
 * 音質: 音質を設定できます。(alaw、ulaw形式の場合は8000に固定されます。)
 
-### 音声合成
+<a id="synthesize-speech"></a>
+### 音声合成 { #synthesize-speech }
 
 テキストを入力した後、**音声合成**をクリックすると、入力した内容の音声ファイルが作成されます。
 

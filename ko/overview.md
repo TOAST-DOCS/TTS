@@ -1,11 +1,15 @@
-## AI Service > Text to Speech > 개요
+<!-- pre-align:aligned sig=b3ae0027e551 -->
+
+<a id="ai-service-text-to-speech-overview"></a>
+## AI Service > Text to Speech > 개요 { #ai-service-text-to-speech-overview }
 
 Text to Speech(TTS)는 NHN Cloud의 문자 인식 및 음성 합성 기술을 통해, 입력된 텍스트를 인식하고, 인식된 문자를 음성으로 합성하는 기능을 제공합니다.
 자동 응답 서비스, 책·인터넷 문서 읽어주기 서비스 등 다양한 분야에서 활용할 수 있습니다.
 
 ※ 본 서비스의 음성 합성 모델 학습에는 자체 데이터와 함께 AI 허브(https://aihub.or.kr) 데이터셋의 일부를 활용했습니다.
 
-## 주요 기능
+<a id="main-features"></a>
+## 주요 기능 { #main-features }
 
 * **음성 합성**
 	* 음성 합성 기능을 통해 입력된 텍스트의 음성 변환 파일을 제공합니다.
@@ -19,7 +23,8 @@ Text to Speech(TTS)는 NHN Cloud의 문자 인식 및 음성 합성 기술을 �
 * **음성 합성 다운로드**
 	* 입력한 텍스트에서 변환된 음성 파일(.wav, .mp3)을 다운로드할 수 있습니다.
 
-## 입력 텍스트 가이드
+<a id="input-text-guide"></a>
+## 입력 텍스트 가이드 { #input-text-guide }
 
 보다 정확한 문자 음성 합성을 위해 아래의 가이드를 참고하시기 바랍니다.
 
@@ -27,12 +32,14 @@ Text to Speech(TTS)는 NHN Cloud의 문자 인식 및 음성 합성 기술을 �
 * 음성 품질을 위해 문장당 50자 내로 입력할 것을 권장합니다.
 * 지원 언어, 숫자, 문장 부호 외 텍스트 입력 시 합성 결과에서 제외됩니다.
     
-## 서비스 대상
+<a id="service-targets"></a>
+## 서비스 대상 { #service-targets }
 * 음성 합성 자동화가 필요한 경우
 * 자동 응답 서비스를 구축하는 경우
 * 책, 인터넷, 문서 등 음성 관련 콘텐츠 생성이 필요한 경우
 
-## 개인정보 처리에 대한 안내
+<a id="information-on-processing-of-personal-information"></a>
+## 개인정보 처리에 대한 안내 { #information-on-processing-of-personal-information }
 * Text to Speech 서비스를 이용하는 과정에서 고객은 이용자의 개인정보를 수집/이용할 수 있으며, 이 경우 고객은 개인정보보호법 등 관련 법령을 준수할 의무가 있습니다. 또한, 본 서비스를 이용 함에 따라 고객은 NHN Cloud에 개인정보 처리에 관한 업무를 위탁 및 제공하게 됩니다. 위탁자의 지위에 있는 고객은 수탁사인 NHN Cloud와 별도 서면에 의한 개인정보 처리 업무 위탁 계약을 체결할 수 있으며, 고객이 운영하는 개인정보처리방침에 아래 내용을 참고하여 고지할 수 있고 이용자로 부터 개인정보의 제3자 제공에 관한 동의를 얻어야 합니다.
     - 수탁 업체: 엔에이치엔클라우드㈜
     - 위탁 업무의 내용: Text to Speech 서비스 제공

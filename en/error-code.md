@@ -1,4 +1,9 @@
-## AI Service > Text to Speech > Error Code
+<!-- pre-align:aligned sig=a66b922917b9 -->
+
+<a id="ai-service-text-to-speech-error-code"></a>
+## AI Service > Text to Speech > Error Code { #ai-service-text-to-speech-error-code }
+
+Codes not specified below follow the HTTP response status codes (RFC 9110).
 
 | resultCode | resultKey                | resultMessage                           |
 |------------|--------------------------|-----------------------------------------|
@@ -20,6 +25,8 @@
 | 4010003    | NOT_ALLOWED_USER         | Not allowed user.                       |
 | 4010004    | INVALID_PROJECT          | Invalid project.                        |
 | 4010005    | UNAUTHORIZED_ROLE        | Unauthorized role.                      |
+| 4010007    | INVALID_TOKEN            | Invalid token.                          |
+| 4010008    | PERMISSION_DENIED        | Permission denied.                      |
 | 5000001    | INTERNAL_API_FAIL        | Internal Api fail.                      |
 | 5000002    | ERROR_PARSING_FAIL       | Error parsing fail.                     |
 | 5000003    | DATABASE_FAIL            | Database server error.                  |
