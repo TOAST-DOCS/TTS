@@ -1,11 +1,15 @@
-## AI Service > Text to Speech > Overview
+<!-- pre-align:aligned sig=b3ae0027e551 -->
+
+<a id="ai-service-text-to-speech-overview"></a>
+## AI Service > Text to Speech > Overview { #ai-service-text-to-speech-overview }
 
 Text to Speech(TTS) uses NHN Cloud's character recognition and speech synthesis technology to recognize input text and synthesize speech from the recognized characters.
 It can be used in various areas such as automatic response services and book/Internet document reading services.
 
 ※ The speech synthesis model for this service was trained using proprietary data as well as a subset of datasets from AI Hub (https://aihub.or.kr).
 
-## Main Features
+<a id="main-features"></a>
+## Main Features { #main-features }
 
 * **Speech synthesis**
 	* Provides a voice file converted from the input text using the speech synthesis function.
@@ -21,7 +25,8 @@ It can be used in various areas such as automatic response services and book/Int
 * **Speech synthesis results download**
 	* You can download audio files (.wav, .mp3) of the voice converted from input text.
 
-## Input Text Guide
+<a id="input-text-guide"></a>
+## Input Text Guide { #input-text-guide }
 
 For more accurate text-to-speech synthesis, please refer to the guide below.
 
@@ -29,12 +34,14 @@ For more accurate text-to-speech synthesis, please refer to the guide below.
 * For voice quality, it is recommended to enter less than 50 characters per sentence.
 * Supported languages, numbers, and punctuation are supported for speech synthesis, and other text are excluded from the synthesis result.
     
-## Service Targets
+<a id="service-targets"></a>
+## Service Targets { #service-targets }
 * When you need speech synthesis automation
 * If you are building an automatic response service
 * When you need to create voice-related content such as books, Internet content, or documents
 
-## Information on Processing of Personal Information
+<a id="information-on-processing-of-personal-information"></a>
+## Information on Processing of Personal Information { #information-on-processing-of-personal-information }
 * While using the Text to Speech service, the customer may collect/use the user's personal information. In this case, the customer is obliged to comply with relevant laws such as the Personal Information Protection Act. In addition, by using this service, the customer consigns and provides the work regarding personal information processing to NHN Cloud. A customer in the status of a consignor may conclude a separate written personal information processing consignment contract with NHN Cloud, the consignee, and may notify the following in the privacy policy operated by the customer, and must obtain consent for provision of personal information to a third party from users.
     - Consignee: NHN Cloud Corp.
     - Consignment Description: Providing the Text to Speech service

@@ -1,7 +1,12 @@
-## AI Service > Text to Speech > API Guide
+<!-- pre-align:aligned sig=6bc53aa1fb63 -->
 
-### Speech Synthesis API
+<a id="ai-service-text-to-speech-api-guide"></a>
+## AI Service > Text to Speech > API Guide { #ai-service-text-to-speech-api-guide }
 
+<a id="speech-synthesis-api"></a>
+### Speech Synthesis API { #speech-synthesis-api }
+
+<a id="speech-synthesis-api-request"></a>
 #### Request
 
 Appkey or project integrated Appkey is required to use Text to Speech (TTS) API.<br/>
@@ -43,6 +48,7 @@ For more information on checking and using an Appkey, see [Appkey](/nhncloud/en/
 | speed        | Float  | Optional | 1        | 0.5~2                      | Speed                                                                                                               |
 | samplingRate | Long   | Optional | 22050    | 8000~44100                 | Sampling rate of the audio file (e.g., 16,000 Hz, 22,050 Hz). For alaw and ulaw types, this must be fixed at 8,000. |
 
+<a id="speech-synthesis-api-response"></a>
 #### Response
 
 [Success Response]

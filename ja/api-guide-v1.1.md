@@ -1,7 +1,12 @@
-## AI Service > Text to Speech > APIガイド
+<!-- pre-align:aligned sig=6bc53aa1fb63 -->
 
-### 音声合成API
+<a id="ai-service-text-to-speech-api-guide"></a>
+## AI Service > Text to Speech > APIガイド { #ai-service-text-to-speech-api-guide }
 
+<a id="speech-synthesis-api"></a>
+### 音声合成API { #speech-synthesis-api }
+
+<a id="speech-synthesis-api-request"></a>
 #### リクエスト
 
 TTS APIは、API呼び出し時の認証/認可のためにUser Access Keyトークンを使用します。User Access Keyトークンは、User Access Keyに基づいて発行されるBearerタイプの一時的なアクセストークンです。
@@ -41,6 +46,7 @@ User Access Keyトークンの発行及び使用に関する詳細は、[User Ac
 | speed        | Float  | 任意     | 1        | 0.5~2                    | 速度                                                                   |
 | samplingRate | Long   | 任意     | 22050    | 8000～44100               | 音声ファイルのサンプリングレート(16000Hz、22050Hz等)。alaw、ulawタイプの場合は8000に固定する必要があります。 |
 
+<a id="speech-synthesis-api-response"></a>
 #### レスポンス
 
 [成功レスポンス]

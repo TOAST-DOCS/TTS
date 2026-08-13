@@ -1,14 +1,20 @@
-## AI Service > Text to Speech > 콘솔 사용 가이드
+<!-- pre-align:aligned sig=ed5326503567 -->
+
+<a id="ai-service-text-to-speech-console-user-guide"></a>
+## AI Service > Text to Speech > 콘솔 사용 가이드 { #ai-service-text-to-speech-console-user-guide }
 
 콘솔을 통해 텍스트를 입력하고 음성 변환 결과를 얻을 수 있습니다.
 
-## 음성 합성
+<a id="speech-synthesis"></a>
+## 음성 합성 { #speech-synthesis }
 
-### 음성 합성을 위한 텍스트 입력
+<a id="enter-text-for-speech-synthesis"></a>
+### 음성 합성을 위한 텍스트 입력 { #enter-text-for-speech-synthesis }
 
 음성 합성에 사용될 텍스트를 입력합니다.
 
-### 음성 합성 세부 설정
+<a id="detailed-settings-for-speech-synthesis"></a>
+### 음성 합성 세부 설정 { #detailed-settings-for-speech-synthesis }
 
 합성될 음성의 세부 설정이 가능합니다.
 
@@ -17,7 +23,8 @@
 * 속도: 음성의 속도(1배속, 2배속 등)값을 설정할 수 있습니다.
 * 음질: 음질을 설정할 수 있습니다. (alaw, ulaw 형식의 경우에는 8000으로 고정됩니다.)
 
-### 음성 합성
+<a id="synthesize-speech"></a>
+### 음성 합성 { #synthesize-speech }
 
 텍스트를 입력한 뒤 **음성 합성**을 클릭하면 입력한 내용의 음성 파일이 생성됩니다.
 
